@@ -1,0 +1,58 @@
+I"i	<p>Blah blah blah</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">f</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hello, world!</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Blah blah blah.  Blah blah blah.  Blah blah blah.
+Let $f(x) = \cos(x)$. Blah blah blah.</p>
+
+\[e^x = \sum_{n=0}^\infty \frac{x^n}{n!}\]
+
+<p>Blah blah blah.  Blah blah blah.  Blah blah blah.</p>
+
+\[\cos^2 x + \sin^2 x = 1\]
+
+<p><br /></p>
+<div class="sketch-container" id="pyramidContainer"></div>
+<p><br /></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Hello</span>
+<span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, world!"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<div class="sketch-container" id="unitCircleContainer"></div>
+
+<p><br /></p>
+
+<p><img src="test_notes.png" alt="" /></p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">#</span><span class="w"> </span>compile
+<span class="go">javac Hello.java
+
+</span><span class="gp">#</span><span class="w"> </span>run
+<span class="go">java Hello
+</span></code></pre></div></div>
+
+<p><br />
+<img src="test_notes_2.png" alt="" />
+<br /></p>
+
+<script src="unit_circle.js"></script>
+
+<script src="pyramid.js"></script>
+
+<script>
+    let unitCircle = new p5(addHandlers(unitCircleSketchMaker), "unitCircleContainer");
+    let pyramid = new p5(addHandlers(pyramidSketchMaker), "pyramidContainer");
+</script>
+
+:ET

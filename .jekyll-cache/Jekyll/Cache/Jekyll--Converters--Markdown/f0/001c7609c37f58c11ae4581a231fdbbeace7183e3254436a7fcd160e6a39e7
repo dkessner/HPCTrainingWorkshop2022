@@ -1,0 +1,78 @@
+I"r<h2 id="project">Project</h2>
+
+<p>This is a Jekyll project template for class/workshop notes, examples, and
+interactive demos.  To create your own project based on this template, go to
+the GitHub project page and click the green “Use this template” button.</p>
+
+<p>Features:</p>
+<ul>
+  <li>LaTeX mathematical equations inside Markdown</li>
+  <li>p5 sketch embedding, with helper functions:
+    <ul>
+      <li>mouse -&gt; arrow key event delegation</li>
+      <li>windowResized() event handling</li>
+    </ul>
+  </li>
+</ul>
+
+<p>GitHub project page: <br />
+<a href="https://github.com/dkessner/class_notes">https://github.com/dkessner/class_notes</a></p>
+
+<h2 id="license">License</h2>
+
+<p>Code: <a href="https://opensource.org/licenses/MIT">MIT license</a></p>
+
+<p>Text: Creative Commons Attribution-ShareAlike 4.0 International License
+(<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>)</p>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p>This project relies solely on open source software and tools, including:</p>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a>: static site generator, for this website</li>
+  <li><a href="https://p5js.org/">p5.js</a>: JavaScript graphics library for creative coding</li>
+  <li><a href="https://www.katex.org/">KaTeX</a>: JavaScript library for rendering LaTeX math</li>
+  <li><a href="https://dtinth.github.io/comic-mono-font/">Comic Mono</a>: font for the code examples</li>
+</ul>
+
+<h2 id="inspiration">Inspiration</h2>
+
+<ul>
+  <li>
+    <p><a href="https://computationalthinking.mit.edu/Spring21/syllabus/">Introduction to Computational Thinking</a>:
+(Alan Edelman, David P. Sanders, Charles E. Leiserson - MIT) 
+live online Julia/Pluto textbook</p>
+  </li>
+  <li>
+    <p><a href="https://sebastianraschka.com/blog/2021/dl-course.html">Introduction to Deep Learning</a>:
+(Sebastian Raschka - UW Madison) 
+video lectures, slides, Python notebooks</p>
+  </li>
+  <li>
+    <p><a href="http://textbooks.math.gatech.edu/ila/index.html">Interactive Linear Algebra</a>
+(Dan Margalit, Joseph Rabinoff - Georgia Institute of Technology)
+online, interactive linear algebra textbook</p>
+  </li>
+  <li>
+    <p><a href="https://curriculum.idsucla.org/">Introduction to Data Science</a>:
+(Robert Gould, Suyen Machado, Terri Anna Johnson, James Molyneux - UCLA)
+high school data science curriculum developed in partnership with the Los
+Angeles Unified School Disctrict</p>
+  </li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<p>To learn more about open source software, public data, and open educational
+resources for teachers:<br />
+<a href="https://dkessner.github.io/TeacherResources/">https://dkessner.github.io/TeacherResources/</a></p>
+
+<p>Dr. Darren Kessner<br />
+Mathematics and Computer Science Instructor<br />
+STEM+ Program Co-Head<br />
+Marlborough School<br />
+Los Angeles, California<br />
+<a href="https://dkessner.github.io">https://dkessner.github.io</a></p>
+
+:ET

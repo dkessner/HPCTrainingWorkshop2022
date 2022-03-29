@@ -1,1 +1,0 @@
-# HPCTrainingWorkshop2022

@@ -1,12 +1,4 @@
-# class notes template
+# HPC Training Workshop 2022
 
-[Live site](https://dkessner.github.io/class_notes/)
-
-
-## notes
-
-Convert a Jekyll gem-based theme to regular (local) theme:
-[https://jekyllrb.com/docs/themes](https://jekyllrb.com/docs/themes)
-
-
+[Live site](https://dkessner.github.io/HPCTrainingWorkshop2022/)
 

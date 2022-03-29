@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Class Notes
-email: Darren.Kessner@marlborough.org
-author: Dr. Kessner
+title: HPC Training Workshop
+email: Darren.Kessner@cshs.org
+author: Darren Kessner, PhD
 description: >- # this means to ignore newlines until "baseurl:"
-  template for class notes website
-baseurl: "class_notes" # the subpath of your site, e.g. /blog
+  HPC Training Workshop 2022 notes
+baseurl: "HPCTrainingWorkshop2022" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

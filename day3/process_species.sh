@@ -19,19 +19,28 @@ fi
 
 echo "taskid: $taskid"
 
+filename_fa=$taskid.fa
+filename_catlist=$taskid.catlist
+filename_catcount=$taskid.catcount
+filename_len=$taskid.len
+
 # extract single species
 
-extract_species.py test.fasta $taskid > $taskid.fasta
+echo "extract_species -> $filename_fa"
+./extract_species.py bacteria.fasta $taskid > $filename_fa
 
 # find CATs
 
-tail -1 1.fasta | grep -o -b CAT > $taskid.catlist
+echo "find_cats-> $filename_catlist"
+./find_cats.sh $filename_fa > $filename_catlist
 
 # count CATs
 
-cat $taskid.catlist | wc -l > $taskid.catcount
+echo "find_cats-> $filename_catcount"
+./count_cats.sh $filename_catlist > $filename_catcount
 
 # sequence length
 
-tail -1 $taskid.fasta | wc -c > $taskid.len
+echo "get_sequence_length.sh -> $filename_len"
+./get_sequence_length.sh $filename_fa > $filename_len
 

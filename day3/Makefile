@@ -17,19 +17,19 @@
 	echo Processing task $*
 
 %.fa:
-	extract_species.py test.fasta $* > $@
+	./extract_species.py bacteria.fasta $* > $@
 
 %.catlist: %.fa
-	tail -1 $< | grep -o -b CAT > $@
+	./find_cats.sh $< > $@
 
 %.catcount: %.catlist
-	cat $< | wc -l > $@
+	./count_cats.sh $< > $@
 
 %.len: %.fa
-	tail -1 $< | wc -c > $@
+	./get_sequence_length.sh $< > $@
 
 clean:
-	rm *.fa *.catcount *.catlist *.len
+	rm -rf *.fa *.catcount *.catlist *.len
 
 # don't delete intermediate files
 .PRECIOUS: %.fa %.catlist %.catcount %.len

@@ -4,16 +4,17 @@ title: Day 2 - Scripting and cluster computing
 permalink: /day2/
 ---
 
-Topics:
+## Submitting jobs
 
-- submitting jobs 
-    - `qsub -cwd -o out.txt -e err.txt script.sh`
-- environment and module
+- `qsub -cwd -o out.txt -e err.txt script.sh`
+- environment and `module`
 - debugging info in scripts:
-    - date
-    - uname -a
-    - $PATH, env
+    - `date`
+    - `uname -a`
+    - `$PATH`, `env`
 
+
+## Shell scripting
 
 [hello.sh](hello.sh)
 
@@ -32,6 +33,8 @@ Topics:
 ```shell
 {% include_relative process_dir.sh %}
 ```
+
+## Python and wrapper scripts
 
 [count_species.py](count_species.py)
 

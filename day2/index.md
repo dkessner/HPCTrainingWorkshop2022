@@ -4,6 +4,17 @@ title: Day 2 - Scripting and cluster computing
 permalink: /day2/
 ---
 
+Topics:
+
+- submitting jobs 
+    - `qsub -cwd -o out.txt -e err.txt script.sh`
+- environment and module
+- debugging info in scripts:
+    - date
+    - uname -a
+    - $PATH, env
+
+
 [hello.sh](hello.sh)
 
 ```shell

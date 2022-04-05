@@ -1,8 +1,9 @@
 #!/usr/bin/bash
-
+#
+# hello.sh
+#
 
 # this is a comment
-
 
 echo "Hello, world!"
 date

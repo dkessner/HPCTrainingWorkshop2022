@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
 # process_dir.sh 
-
 
 # check that there is exactly one argument
 
@@ -21,12 +19,9 @@ then
 fi
 
 directory=$1
-
 echo "directory: $directory"
 
-
 files=$(ls $directory)
-
 # echo "Files: $files"
 
 for f in $files

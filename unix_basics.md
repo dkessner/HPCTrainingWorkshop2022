@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unix basics
+title: Day 1 - Unix basics
 permalink: /unix_basics/
 ---
 

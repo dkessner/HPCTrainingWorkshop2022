@@ -37,3 +37,25 @@ singularity run lolcow_latest.sif
 singularity exec lolcow_latest.sif date
 ```
 
+- Pull a docker container: 
+```
+# docker pull biocontainers/blast:2.2.31
+singularity pull docker://biocontainers/blast:2.2.31
+```
+
+### Links and more info
+
+- [BioContainers](https://biocontainers-edu.readthedocs.io/en/latest/index.html)
+
+- [Singularity Cloud Library](https://cloud.sylabs.io/library)
+
+- [Docker Hub](https://hub.docker.com/)
+
+- [NVidia](https://catalog.ngc.nvidia.com/containers)
+
+- [AMD](https://www.amd.com/en/technologies/infinity-hub)
+
+
+
+
+

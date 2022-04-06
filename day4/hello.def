@@ -1,0 +1,17 @@
+BootStrap: library
+From: busybox
+
+%post
+
+%files
+    gc_content.sh /usr/games/
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/games:$PATH
+
+%runscript
+    gc_content.sh $@
+
+%labels
+    Author kessnerd

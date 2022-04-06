@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ $# -ne 1 ]
+then
+    echo "Usage: gc_content.sh filename"
+    exit 1
+fi
+
 sequence=$(tail -1 $1)
 A_count=$(echo $sequence | grep -o  A | wc -l)
 C_count=$(echo $sequence | grep -o  C | wc -l)
